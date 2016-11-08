@@ -1,0 +1,38 @@
+#include<iostream>
+#include<vector>
+
+using namespace std;
+
+int main()
+{
+	int x, y, z;
+	int Add,rem = 0;
+	cin >> x;
+	for (int i = 0; i < x;i++) {
+		cin >> y;
+		vector<int>Num1(y);
+		vector<int>Num2(y);
+		vector<int>Answer;
+		for (int i = 0; i < y; i++) {
+			cin >> z;
+			Num1[i] = z;
+			cin >> z;
+			Num2[i] = z;
+		}
+		for (int i = y-1; i >= 0; i--) {
+			Add = rem + Num1[i] + Num2[i];
+			Answer.push_back((Add) % 10);
+			rem = (Add/ 10);
+		}
+		for (int i = (Answer.size()) - 1; i >= 0; i--)
+			cout << Answer[i];
+		if(i<x-1)
+			cout << endl;
+
+		Num1.clear();
+		Num2.clear();
+		Answer.clear();
+	}
+    return 0;
+}
+
