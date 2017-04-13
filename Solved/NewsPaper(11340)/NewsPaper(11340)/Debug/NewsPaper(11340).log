@@ -1,0 +1,4 @@
+﻿  NewsPaper(11340).cpp
+c:\users\cagbo\desktop\newspaper(11340)\newspaper(11340)\newspaper(11340).cpp(35): warning C4018: '<': signed/unsigned mismatch
+  NewsPaper(11340).vcxproj -> C:\Users\cagbo\Desktop\NewsPaper(11340)\Debug\NewsPaper(11340).exe
+  NewsPaper(11340).vcxproj -> C:\Users\cagbo\Desktop\NewsPaper(11340)\Debug\NewsPaper(11340).pdb (Full PDB)
